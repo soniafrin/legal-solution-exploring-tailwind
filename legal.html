@@ -7,11 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Legal-Solution </title>
 </head>
-<body class=" font-[EB_Garamond] max-w-[1590px] w-[1170px] mx-auto ">
+<body class=" font-[EB_Garamond] max-w-[1590px] w-[1000px] mx-auto">
+    <!-- header section -->
     <header>
-        <nav class="flex justify-around py-[60px]">
+        <!-- navbar -->
+        <nav class="flex justify-between py-[60px]">
             <div>
                 <img src="images/logo2.png" alt="">
             </div>
@@ -40,8 +43,10 @@
             <div>
                 <a class="rounded-lg bg-[#B68C5A] px-[29px] py-[19px] text-[#ffffff] text-[16px] font-[600]" href="">Free Consultation</a>
             </div>
-        </nav>                                                        
-            <div class="flex flex-col items-center justify-center gap-6 h-screen bg-[linear-gradient(to_left,rgba(17,17,17,0)_0%,rgba(17,17,17,1)_100%),url('/images/banner.png')] bg-cover bg-center">
+        </nav> 
+        
+        <!-- banner -->
+        <section class="flex flex-col items-center justify-center gap-6 h-screen bg-[linear-gradient(to_left,rgba(17,17,17,0)_0%,rgba(17,17,17,1)_100%),url('/images/banner.png')] bg-cover bg-center">
                 <h1 class="text-center text-white max-w-[668px] text-[4.5rem]/[85px] font-[800]">We Provide Effective Legal Solutions</h1>
                 <p class="text-center text-[#E7E7E7] font-[1rem]/[26px] max-w-[679px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                 <form class="max-w-[700px]">
@@ -49,17 +54,92 @@
                     w-[550px]">
                     <input type="button" value="Search" class="rounded-lg bg-[#B68C5A] px-[39px] py-[17px] text-[1.25rem] text-[#ffffff] font-[600] ">
                 </form>
-            </div>
-
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo laboriosam maxime reiciendis ratione, delectus dolorum dolor voluptatibus pariatur neque porro ullam aut commodi doloremque doloribus temporibus aliquid quod! Aliquam, dolorem.</p>
-
-        
-
-        
+        </section>
     </header>
 
-
+<!-- main section -->
     <main>
+        <!-- legal practice area -->
+         <section class="mt-[120px]">
+            <!-- legal practice heading -->
+            <h2 class="text-[#414040] text-[2.5rem] font-[800] text-center">The Legal Practice Area</h2>
+            <p class="text-[#707070] text-[1rem]/[26px] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+            <!-- legal practice card -->
+            <div class="grid grid-cols-3 grid-rows-2 mt-[64px] bg-[linear-gradient(to_top,rgba(243,243,243,0)_0%,rgba(243,243,243,1)_100%)] divide-x divide-y divide-[rgba(231,231,231,1)]">
+                <!-- card-1 -->
+                <div class=" flex justify-center items-center flex-col gap-y-[24px] px-[70px] py-[56px]   ">
+                    <img src="images/business.png" alt="">
+                    <h3 class="text-[2rem] text-[#414040] font-[800]">Business Law</h3>
+                    <p class="text-[1rem]/[26px] text-[#707070] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <span><a class="text-[#B68C5A]" href=""><i class="fa-solid fa-circle-arrow-right"></i></a></span>
+                </div>
+                <!-- card-2 -->
+                <div class="flex justify-center items-center flex-col  gap-y-[24px] px-[70px] py-[56px]  ">
+                    <img src="images/business.png" alt="">
+                    <h3 class="text-[2rem] text-[#414040] font-[800]">Business Law</h3>
+                    <p class="text-[1rem]/[26px] text-[#707070] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <span><a class="text-[#B68C5A]" href=""><i class="fa-solid fa-circle-arrow-right"></i></a></span>
+                </div>
+                <!-- card-3 -->
+                <div class="flex justify-center items-center flex-col px-[70px] py-[56px]  gap-y-[24px] ">
+                    <img src="images/business.png" alt="">
+                    <h3 class="text-[2rem] text-[#414040] font-[800]">Business Law</h3>
+                    <p class="text-[1rem]/[26px] text-[#707070] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <span><a class="text-[#B68C5A]" href=""><i class="fa-solid fa-circle-arrow-right"></i></a></span>
+                </div>
+                <!-- card-4 -->
+                <div class="flex justify-center items-center flex-col px-[70px] py-[56px]  gap-y-[24px] ">
+                    <img src="images/business.png" alt="">
+                    <h3 class="text-[2rem] text-[#414040] font-[800]">Business Law</h3>
+                    <p class="text-[1rem]/[26px] text-[#707070] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <span><a class="text-[#B68C5A]" href=""><i class="fa-solid fa-circle-arrow-right"></i></a></span>
+                </div>
+                <!-- card-5 -->
+                <div class="flex justify-center items-center flex-col px-[70px] py-[56px]  gap-y-[24px] ">
+                    <img src="images/business.png" alt="">
+                    <h3 class="text-[2rem] text-[#414040] font-[800]">Business Law</h3>
+                    <p class="text-[1rem]/[26px] text-[#707070] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <span><a class="text-[#B68C5A]" href=""><i class="fa-solid fa-circle-arrow-right"></i></a></span>
+                </div>
+                <!-- card-6 -->
+                <div class="flex justify-center items-center flex-col px-[70px] py-[56px]  gap-y-[24px] ">
+                    <img src="images/business.png" alt="">
+                    <h3 class="text-[2rem] text-[#414040] font-[800]">Business Law</h3>
+                    <p class="text-[1rem]/[26px] text-[#707070] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <span><a class="text-[#B68C5A]" href=""><i class="fa-solid fa-circle-arrow-right"></i></a></span>
+                </div>
+
+         </section>
+
+         <section class="mt-[20px]">
+            <div class="grid grid-cols-3 grid-rows-2 
+  bg-[linear-gradient(to_right,rgba(255,255,255,0.08)_1px,transparent_1px),
+      linear-gradient(to_bottom,rgba(255,255,255,0.08)_1px,transparent_1px)]
+  bg-[size:33.333%_100%,100%_50%]
+  bg-no-repeat">
+                <div class="">
+                    Card1
+                </div>
+                <div class="p-6">
+                    Card2
+                </div>
+                <div class="p-6 ">
+                    Card3
+                </div>
+                <div class="p-6">
+                    Card4
+                </div>
+                <div class="p-6">
+                    Card5
+                </div>
+                <div class="p-6">
+                    Card6
+                </div>
+            </div>
+
+         </section>
+
 
     </main>
 
